@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C899B331DA7F9D70094C217 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C899B321DA7F9D70094C217 /* main.m */; };
+		3C899B361DA7F9D70094C217 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C899B351DA7F9D70094C217 /* AppDelegate.m */; };
+		3C899B391DA7F9D70094C217 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C899B381DA7F9D70094C217 /* ViewController.m */; };
+		3C899B3C1DA7F9D70094C217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C899B3A1DA7F9D70094C217 /* Main.storyboard */; };
+		3C899B3E1DA7F9D70094C217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C899B3D1DA7F9D70094C217 /* Assets.xcassets */; };
+		3C899B411DA7F9D70094C217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C899B3F1DA7F9D70094C217 /* LaunchScreen.storyboard */; };
+		3C899B541DA7F9DF0094C217 /* KKGestureBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C899B4B1DA7F9DF0094C217 /* KKGestureBackView.m */; };
+		3C899B551DA7F9DF0094C217 /* KKGestureItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C899B4D1DA7F9DF0094C217 /* KKGestureItem.m */; };
+		3C899B561DA7F9DF0094C217 /* KKGestureLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C899B4F1DA7F9DF0094C217 /* KKGestureLineView.m */; };
+		3C899B571DA7F9DF0094C217 /* KKGestureTrackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C899B511DA7F9DF0094C217 /* KKGestureTrackView.m */; };
+		3C899B581DA7F9DF0094C217 /* KKGestureView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C899B531DA7F9DF0094C217 /* KKGestureView.mm */; };
+		6B708F874311FCBFC727380A /* libPods-KKGesture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1DCC3D40BDE84ED91F7E4F /* libPods-KKGesture.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C899B2E1DA7F9D70094C217 /* KKGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C899B321DA7F9D70094C217 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C899B341DA7F9D70094C217 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C899B351DA7F9D70094C217 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C899B371DA7F9D70094C217 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C899B381DA7F9D70094C217 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C899B3B1DA7F9D70094C217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C899B3D1DA7F9D70094C217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C899B401DA7F9D70094C217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C899B421DA7F9D70094C217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C899B491DA7F9DF0094C217 /* KKGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGesture.h; sourceTree = "<group>"; };
+		3C899B4A1DA7F9DF0094C217 /* KKGestureBackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGestureBackView.h; sourceTree = "<group>"; };
+		3C899B4B1DA7F9DF0094C217 /* KKGestureBackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGestureBackView.m; sourceTree = "<group>"; };
+		3C899B4C1DA7F9DF0094C217 /* KKGestureItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGestureItem.h; sourceTree = "<group>"; };
+		3C899B4D1DA7F9DF0094C217 /* KKGestureItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGestureItem.m; sourceTree = "<group>"; };
+		3C899B4E1DA7F9DF0094C217 /* KKGestureLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGestureLineView.h; sourceTree = "<group>"; };
+		3C899B4F1DA7F9DF0094C217 /* KKGestureLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGestureLineView.m; sourceTree = "<group>"; };
+		3C899B501DA7F9DF0094C217 /* KKGestureTrackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGestureTrackView.h; sourceTree = "<group>"; };
+		3C899B511DA7F9DF0094C217 /* KKGestureTrackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGestureTrackView.m; sourceTree = "<group>"; };
+		3C899B521DA7F9DF0094C217 /* KKGestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGestureView.h; sourceTree = "<group>"; };
+		3C899B531DA7F9DF0094C217 /* KKGestureView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KKGestureView.mm; sourceTree = "<group>"; };
+		4C1DCC3D40BDE84ED91F7E4F /* libPods-KKGesture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KKGesture.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7202422B44D9DE02094C4E22 /* Pods-KKGesture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKGesture.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKGesture/Pods-KKGesture.release.xcconfig"; sourceTree = "<group>"; };
+		DE730934FB8D1F90682DB0EB /* Pods-KKGesture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKGesture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKGesture/Pods-KKGesture.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C899B2B1DA7F9D70094C217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B708F874311FCBFC727380A /* libPods-KKGesture.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C899B251DA7F9D70094C217 = {
+			isa = PBXGroup;
+			children = (
+				3C899B301DA7F9D70094C217 /* KKGesture */,
+				3C899B2F1DA7F9D70094C217 /* Products */,
+				C31406F5C66168D0DD1A7C74 /* Pods */,
+				C321F512EEE6CC50763290ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C899B2F1DA7F9D70094C217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C899B2E1DA7F9D70094C217 /* KKGesture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C899B301DA7F9D70094C217 /* KKGesture */ = {
+			isa = PBXGroup;
+			children = (
+				3C899B481DA7F9DF0094C217 /* KKGesture */,
+				3C899B341DA7F9D70094C217 /* AppDelegate.h */,
+				3C899B351DA7F9D70094C217 /* AppDelegate.m */,
+				3C899B371DA7F9D70094C217 /* ViewController.h */,
+				3C899B381DA7F9D70094C217 /* ViewController.m */,
+				3C899B3A1DA7F9D70094C217 /* Main.storyboard */,
+				3C899B3D1DA7F9D70094C217 /* Assets.xcassets */,
+				3C899B3F1DA7F9D70094C217 /* LaunchScreen.storyboard */,
+				3C899B421DA7F9D70094C217 /* Info.plist */,
+				3C899B311DA7F9D70094C217 /* Supporting Files */,
+			);
+			path = KKGesture;
+			sourceTree = "<group>";
+		};
+		3C899B311DA7F9D70094C217 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C899B321DA7F9D70094C217 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C899B481DA7F9DF0094C217 /* KKGesture */ = {
+			isa = PBXGroup;
+			children = (
+				3C899B491DA7F9DF0094C217 /* KKGesture.h */,
+				3C899B4A1DA7F9DF0094C217 /* KKGestureBackView.h */,
+				3C899B4B1DA7F9DF0094C217 /* KKGestureBackView.m */,
+				3C899B4C1DA7F9DF0094C217 /* KKGestureItem.h */,
+				3C899B4D1DA7F9DF0094C217 /* KKGestureItem.m */,
+				3C899B4E1DA7F9DF0094C217 /* KKGestureLineView.h */,
+				3C899B4F1DA7F9DF0094C217 /* KKGestureLineView.m */,
+				3C899B501DA7F9DF0094C217 /* KKGestureTrackView.h */,
+				3C899B511DA7F9DF0094C217 /* KKGestureTrackView.m */,
+				3C899B521DA7F9DF0094C217 /* KKGestureView.h */,
+				3C899B531DA7F9DF0094C217 /* KKGestureView.mm */,
+			);
+			path = KKGesture;
+			sourceTree = "<group>";
+		};
+		C31406F5C66168D0DD1A7C74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE730934FB8D1F90682DB0EB /* Pods-KKGesture.debug.xcconfig */,
+				7202422B44D9DE02094C4E22 /* Pods-KKGesture.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C321F512EEE6CC50763290ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C1DCC3D40BDE84ED91F7E4F /* libPods-KKGesture.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C899B2D1DA7F9D70094C217 /* KKGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C899B451DA7F9D70094C217 /* Build configuration list for PBXNativeTarget "KKGesture" */;
+			buildPhases = (
+				8BEF7A65C49FE49577D26D38 /* [CP] Check Pods Manifest.lock */,
+				3C899B2A1DA7F9D70094C217 /* Sources */,
+				3C899B2B1DA7F9D70094C217 /* Frameworks */,
+				3C899B2C1DA7F9D70094C217 /* Resources */,
+				E526D4ADE778FC3B8E4B8522 /* [CP] Embed Pods Frameworks */,
+				A3D44F655087559B83D88677 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKGesture;
+			productName = KKGesture;
+			productReference = 3C899B2E1DA7F9D70094C217 /* KKGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C899B261DA7F9D70094C217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = King;
+				TargetAttributes = {
+					3C899B2D1DA7F9D70094C217 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3C899B291DA7F9D70094C217 /* Build configuration list for PBXProject "KKGesture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C899B251DA7F9D70094C217;
+			productRefGroup = 3C899B2F1DA7F9D70094C217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C899B2D1DA7F9D70094C217 /* KKGesture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C899B2C1DA7F9D70094C217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C899B411DA7F9D70094C217 /* LaunchScreen.storyboard in Resources */,
+				3C899B3E1DA7F9D70094C217 /* Assets.xcassets in Resources */,
+				3C899B3C1DA7F9D70094C217 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BEF7A65C49FE49577D26D38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3D44F655087559B83D88677 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKGesture/Pods-KKGesture-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E526D4ADE778FC3B8E4B8522 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKGesture/Pods-KKGesture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C899B2A1DA7F9D70094C217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C899B581DA7F9DF0094C217 /* KKGestureView.mm in Sources */,
+				3C899B571DA7F9DF0094C217 /* KKGestureTrackView.m in Sources */,
+				3C899B551DA7F9DF0094C217 /* KKGestureItem.m in Sources */,
+				3C899B391DA7F9D70094C217 /* ViewController.m in Sources */,
+				3C899B561DA7F9DF0094C217 /* KKGestureLineView.m in Sources */,
+				3C899B361DA7F9D70094C217 /* AppDelegate.m in Sources */,
+				3C899B331DA7F9D70094C217 /* main.m in Sources */,
+				3C899B541DA7F9DF0094C217 /* KKGestureBackView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C899B3A1DA7F9D70094C217 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C899B3B1DA7F9D70094C217 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C899B3F1DA7F9D70094C217 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C899B401DA7F9D70094C217 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C899B431DA7F9D70094C217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C899B441DA7F9D70094C217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C899B461DA7F9D70094C217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE730934FB8D1F90682DB0EB /* Pods-KKGesture.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KKGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmall.KKGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C899B471DA7F9D70094C217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7202422B44D9DE02094C4E22 /* Pods-KKGesture.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KKGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmall.KKGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C899B291DA7F9D70094C217 /* Build configuration list for PBXProject "KKGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C899B431DA7F9D70094C217 /* Debug */,
+				3C899B441DA7F9D70094C217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C899B451DA7F9D70094C217 /* Build configuration list for PBXNativeTarget "KKGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C899B461DA7F9D70094C217 /* Debug */,
+				3C899B471DA7F9D70094C217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C899B261DA7F9D70094C217 /* Project object */;
+}
