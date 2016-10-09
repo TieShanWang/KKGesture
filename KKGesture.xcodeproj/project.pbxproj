@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18464D2E22F23355872482CE /* libPods-KKGesture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C15DE2D3137F96A933E025 /* libPods-KKGesture.a */; };
 		3C899B331DA7F9D70094C217 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C899B321DA7F9D70094C217 /* main.m */; };
 		3C899B361DA7F9D70094C217 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C899B351DA7F9D70094C217 /* AppDelegate.m */; };
 		3C899B391DA7F9D70094C217 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C899B381DA7F9D70094C217 /* ViewController.m */; };
@@ -18,7 +19,6 @@
 		3C899B561DA7F9DF0094C217 /* KKGestureLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C899B4F1DA7F9DF0094C217 /* KKGestureLineView.m */; };
 		3C899B571DA7F9DF0094C217 /* KKGestureTrackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C899B511DA7F9DF0094C217 /* KKGestureTrackView.m */; };
 		3C899B581DA7F9DF0094C217 /* KKGestureView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C899B531DA7F9DF0094C217 /* KKGestureView.mm */; };
-		6B708F874311FCBFC727380A /* libPods-KKGesture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1DCC3D40BDE84ED91F7E4F /* libPods-KKGesture.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,9 +43,9 @@
 		3C899B511DA7F9DF0094C217 /* KKGestureTrackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGestureTrackView.m; sourceTree = "<group>"; };
 		3C899B521DA7F9DF0094C217 /* KKGestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGestureView.h; sourceTree = "<group>"; };
 		3C899B531DA7F9DF0094C217 /* KKGestureView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KKGestureView.mm; sourceTree = "<group>"; };
-		4C1DCC3D40BDE84ED91F7E4F /* libPods-KKGesture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KKGesture.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7202422B44D9DE02094C4E22 /* Pods-KKGesture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKGesture.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKGesture/Pods-KKGesture.release.xcconfig"; sourceTree = "<group>"; };
-		DE730934FB8D1F90682DB0EB /* Pods-KKGesture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKGesture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKGesture/Pods-KKGesture.debug.xcconfig"; sourceTree = "<group>"; };
+		4EAC4B23D41BBABF206AC3BD /* Pods-KKGesture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKGesture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKGesture/Pods-KKGesture.debug.xcconfig"; sourceTree = "<group>"; };
+		A8C15DE2D3137F96A933E025 /* libPods-KKGesture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KKGesture.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7EDFE0D726671AD4A9A0039 /* Pods-KKGesture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKGesture.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKGesture/Pods-KKGesture.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,20 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B708F874311FCBFC727380A /* libPods-KKGesture.a in Frameworks */,
+				18464D2E22F23355872482CE /* libPods-KKGesture.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3012A4F32FFFDDF28468A0C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8C15DE2D3137F96A933E025 /* libPods-KKGesture.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34EB0B5D96F432E58EBDD7D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EAC4B23D41BBABF206AC3BD /* Pods-KKGesture.debug.xcconfig */,
+				D7EDFE0D726671AD4A9A0039 /* Pods-KKGesture.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3C899B251DA7F9D70094C217 = {
 			isa = PBXGroup;
 			children = (
 				3C899B301DA7F9D70094C217 /* KKGesture */,
 				3C899B2F1DA7F9D70094C217 /* Products */,
-				C31406F5C66168D0DD1A7C74 /* Pods */,
-				C321F512EEE6CC50763290ED /* Frameworks */,
+				34EB0B5D96F432E58EBDD7D0 /* Pods */,
+				3012A4F32FFFDDF28468A0C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,23 +136,6 @@
 				3C899B531DA7F9DF0094C217 /* KKGestureView.mm */,
 			);
 			path = KKGesture;
-			sourceTree = "<group>";
-		};
-		C31406F5C66168D0DD1A7C74 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DE730934FB8D1F90682DB0EB /* Pods-KKGesture.debug.xcconfig */,
-				7202422B44D9DE02094C4E22 /* Pods-KKGesture.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		C321F512EEE6CC50763290ED /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4C1DCC3D40BDE84ED91F7E4F /* libPods-KKGesture.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,7 +374,7 @@
 		};
 		3C899B461DA7F9D70094C217 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE730934FB8D1F90682DB0EB /* Pods-KKGesture.debug.xcconfig */;
+			baseConfigurationReference = 4EAC4B23D41BBABF206AC3BD /* Pods-KKGesture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KKGesture/Info.plist;
@@ -386,7 +386,7 @@
 		};
 		3C899B471DA7F9D70094C217 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7202422B44D9DE02094C4E22 /* Pods-KKGesture.release.xcconfig */;
+			baseConfigurationReference = D7EDFE0D726671AD4A9A0039 /* Pods-KKGesture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KKGesture/Info.plist;

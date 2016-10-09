@@ -8,12 +8,10 @@
 
 #import "KKGestureItem.h"
 
-#import "UIView+KKFrame.h"
-
 @implementation KKGestureItem
 
 -(CGFloat)itemRadius{
-    return self.kk_width / 2.0f;
+    return self.frame.size.width / 2.0f;
 }
 
 -(void)setState:(KKGestureItemState)state{
@@ -24,7 +22,7 @@
 
 - (void)drawRect:(CGRect)rect {
     
-    CGFloat width = self.kk_width;
+    CGFloat width = self.frame.size.width;
     
     CGContextRef context = UIGraphicsGetCurrentContext();
     
@@ -93,7 +91,7 @@
 }
 
 -(CGFloat)itemRadius{
-    return self.kk_width / 2.0f;
+    return self.frame.size.width / 2.0f;
 }
 
 -(void)setState:(KKGestureItemState)state{
@@ -155,7 +153,7 @@
 }
 
 -(CGFloat)itemRadius{
-    return self.kk_width / 2.0f;
+    return self.frame.size.width / 2.0f;
 }
 
 -(void)setState:(KKGestureItemState)state{

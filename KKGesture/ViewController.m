@@ -8,8 +8,6 @@
 
 #import "ViewController.h"
 
-#import "KKBaseComponent.h"
-
 #import "KKGesture/KKGesture.h"
 
 @interface ViewController ()
@@ -22,7 +20,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    KKGestureView * view = [[KKGestureView alloc]initWithFrame:CGRectMake(0, 100, KScreenWidth, KScreenWidth)];
+    KKGestureView * view = [[KKGestureView alloc]initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.width)];
     [self.view addSubview:view];
     
 }

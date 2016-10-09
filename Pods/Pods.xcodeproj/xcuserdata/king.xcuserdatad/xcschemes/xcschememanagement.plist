@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>KKBaseComponent.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-KKGesture.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1CC8D9DA3A4E43D0FC8211CE5E6DF2DC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>544617B0D5EEA26C0DF8E35FE68EF2E0</key>
+		<key>676A15523E296F416FB5B2FFEB7E0368</key>
 		<dict>
 			<key>primary</key>
 			<true/>

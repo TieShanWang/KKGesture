@@ -10,8 +10,6 @@
 
 #import "KKGestureBackView.h"
 
-#import "UIView+KKFrame.h"
-
 @interface KKGestureView()
 {
     NSArray * _arrObservers;
@@ -163,11 +161,11 @@
 
 -(void)layoutSubviews{
     
-    _trackView.bounds = CGRectMake(0, 0, self.kk_width, self.kk_height);
-    _trackView.center = CGPointMake(self.kk_width / 2.0, self.kk_height / 2.0);
+    _trackView.bounds = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
+    _trackView.center = CGPointMake(self.frame.size.width / 2.0, self.frame.size.height / 2.0);
     
-    CGFloat backWidth = self.kk_width - self.edgeInsets.left - self.edgeInsets.right;
-    CGFloat backHeight = self.kk_height - self.edgeInsets.top - self.edgeInsets.bottom;
+    CGFloat backWidth = self.frame.size.width - self.edgeInsets.left - self.edgeInsets.right;
+    CGFloat backHeight = self.frame.size.height - self.edgeInsets.top - self.edgeInsets.bottom;
     CGFloat backCenterX = self.edgeInsets.left + backWidth / 2.0;
     CGFloat backCenterY = self.edgeInsets.top + backHeight / 2.0;
     
@@ -180,11 +178,11 @@
 #pragma mark - set/get
 
 -(double)rowsPad{
-    return (self.kk_height - self.rows * self.itemRadius * 2) / (self.rows - 1);
+    return (self.frame.size.height - self.rows * self.itemRadius * 2) / (self.rows - 1);
 }
 
 -(double)colsPad{
-    return (self.kk_width - self.cols * self.itemRadius * 2) / (self.cols - 1);
+    return (self.frame.size.width - self.cols * self.itemRadius * 2) / (self.cols - 1);
 }
 
 -(void)setEdgeInsets:(UIEdgeInsets)edgeInsets{

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '544617B0D5EEA26C0DF8E35FE68EF2E0'
+               BlueprintIdentifier = '676A15523E296F416FB5B2FFEB7E0368'
                BlueprintName = 'Pods-KKGesture'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-KKGesture.a'>

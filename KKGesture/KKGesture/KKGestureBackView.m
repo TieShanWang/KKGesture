@@ -12,8 +12,6 @@
 
 #import "KKGestureLineView.h"
 
-#import "UIView+KKFrame.h"
-
 @interface KKGestureBackView()
 {
     CGPoint * _points;
@@ -207,8 +205,8 @@
 }
 
 -(void)layoutSubviews{
-    _lineView.bounds = CGRectMake(0, 0, self.kk_width, self.kk_height);
-    _lineView.center = CGPointMake(self.kk_width / 2.0, self.kk_height / 2.0);
+    _lineView.bounds = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
+    _lineView.center = CGPointMake(self.frame.size.width / 2.0, self.frame.size.height / 2.0);
 }
 
 /*
